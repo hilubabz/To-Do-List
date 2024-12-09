@@ -1,0 +1,48 @@
+.btn{
+    padding:1rem 2rem;
+    
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.taskInput{
+    padding-top: 50px;
+    justify-content: center;
+}
+
+.textField{
+    height:50px;
+    width:900px;
+}
+
+.submitBtn{
+    padding:1rem 2rem;
+}
+
+.task{
+    display:flex;
+    gap:1.5rem;
+    border:1px black solid;
+    margin:1rem 3rem;
+    padding:2rem 1rem;
+    border-radius: 1rem;
+    font-size: 2rem;
+    transition: 0.3s all ease-in-out;
+}
+
+button{
+    border-radius: 1rem;
+    border: none;
+}
+
+.task:hover{
+    background-color:rgb(231, 231, 231);
+}
+
+.task:has(.fa-light:hover){
+    background-color: rgb(255, 123, 123);
+}
